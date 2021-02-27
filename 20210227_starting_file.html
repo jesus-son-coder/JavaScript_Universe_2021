@@ -2,30 +2,42 @@
 <html lang="fr">
 <head>
   <meta charset="utf-8">
-  <title>Titre de la page</title>
+  <title><CSS Scrolling &amp; Parallax</title>
   <!-- Librairies de Style -->
   <!-- ------------------- -->
+  <script defer src="./js/fontawesome/fontawesome-all.min.js"></script>
   <link rel="stylesheet" href="./css/bootstrap/bootstrap.min.css">
   <link rel="stylesheet" href="./css/main.css">
 
 </head>
 <body>
-
+  <nav class="site-nav text-uppercase navbar navbar-expand-md navbar-dark w-100 bg-primary">
+    <div class="container-fluid">
+      <a class="navbar-brand font-weight-normal" href="#page-hero">
+        <i class="fas fa-cube mr-2"></i>LiL Animals
+      </a>
+      <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#myTogglerNav" aria-controls="#myTogglerNav"><span class="navbar-toggler-icon"></span>
+      </button>
+      <section class="collapse navbar-collapse" id="myTogglerNav">
+        <div class="navbar-nav ml-auto">
+          <a class="nav-item nav-link" href="#meet">meet</a>
+          <a class="nav-item nav-link" href="#types">types</a>
+          <a class="nav-item nav-link" href="#friend">friend</a>
+          <a class="nav-item nav-link" href="#hire">hire</a>
+        </div>
+      </section>
+      
+    </div> 
+  </nav>
   <!-- Le reste du contenu -->
   <div class="container">
-      <h1>Hello World ;)</h1>
+
   </div>
 
-  <!-- Librairies JavaScrip --> 
+  <!-- Librairies JavaScrip -->
   <!-- -------------------- -->
   <script src="./js/jquery/jquery_3_3_1.js"></script>
   <script src="./js/bootstrap/bootstrap.min.js"></script>
   <script src="./js/app.js"></script>
-
-  <script>
-    
-  </script>
-
-
 </body>
 </html>
